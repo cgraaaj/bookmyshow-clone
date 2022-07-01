@@ -1,4 +1,4 @@
-# Getting Started with BeTrue Stock Brokerage Client
+# Getting Started with Bookmyshow Clone
 
 ## About this Project
 
