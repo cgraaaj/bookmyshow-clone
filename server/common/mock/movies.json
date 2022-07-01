@@ -1,0 +1,150 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_FMjpg_UX1000_.jpg",
+            "title": "Avengers",
+            "cast": [
+                "Chirs Evans",
+                "RDJ"
+            ],
+            "language": "English",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "id": "8ab561c9-5e2a-4fcd-9408-30615c629d9c",
+            "rating": "99%"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BMjAxZDEyZTUtMTdiMC00M2FkLWFlYWItZTQ3NWQzNzY2NDdjXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg",
+            "title": "Vikram",
+            "cast": [
+                "Kamal Hassan",
+                "FAFA",
+                "VS"
+            ],
+            "language": "Tamil",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "id": "cc61730b-5811-452e-972f-b7470d6afb81",
+            "rating": "96%"
+        },
+        {
+            "image": "https://i.scdn.co/image/ab67616d0000b2738dd1b44121d9699a592126b9",
+            "title": "Avvai Shanmugi",
+            "cast": [
+                "Kamal Hassan",
+                "Meena"
+            ],
+            "language": "Tamil",
+            "genre": [
+                "Comedy"
+            ],
+            "id": "0849ebd2-b00f-419d-baa5-bf2ba4246173",
+            "rating": "90%"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg",
+            "title": "Iron Man",
+            "cast": [
+                "RDJ"
+            ],
+            "language": "English",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "id": "f34af101-ac2a-4751-a4f5-cf4deda6f564",
+            "rating": "94%"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/I/51eoN+-NlxL.jpg",
+            "title": "Dhoom 2",
+            "cast": [
+                "Hirthik Roshan",
+                "Aishwarya"
+            ],
+            "language": "Hindi",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "id": "c654a353-e445-4d20-ab59-f3d831428c02",
+            "rating": "80%"
+        },
+        {
+            "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/Center_of_the_earth_3d.jpg",
+            "title": "Journey to the center of the earth 2",
+            "cast": [
+                "ROCK"
+            ],
+            "language": "English",
+            "genre": [
+                "Sci-Fi"
+            ],
+            "id": "a94d06c8-9f36-41a7-a642-6481b5085977",
+            "rating": "73%"
+        },
+        {
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71epG0m0KZL._RI_.jpg",
+            "title": "Jab we Met",
+            "cast": [
+                "Shahid Kapoor",
+                "Kareena Kapoor"
+            ],
+            "language": "Hindi",
+            "genre": [
+                "Romantic",
+                "Comedy"
+            ],
+            "id": "03cab458-ba84-49b7-9082-ec44f31383bf",
+            "rating": "99.99%"
+        },
+        {
+            "image": "https://www.pinkvilla.com/imageresize/Baahubali-The-Beginning-re-release.jpg?width=752&format=webp&t=pvorg",
+            "title": "Bhahubali",
+            "cast": [
+                "Prabhas",
+                "Anushka"
+            ],
+            "language": "Telugu",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "id": "6f1c2215-ce72-400a-afa7-999b2c2dc3c5",
+            "rating": "90%"
+        },
+        {
+            "image": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2021/02/pjimage-34-1614420957.jpg",
+            "title": "Girl on Train",
+            "cast": [
+                "Parineeti"
+            ],
+            "language": "Hindi",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "id": "31b47e36-05a9-4726-a79e-02fdbb01e555",
+            "rating": "65%"
+        },
+        {
+            "image": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg",
+            "title": "Dr.Strange",
+            "cast": [
+                "Benedict Cumberbatch"
+            ],
+            "language": "English",
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "id": "a0c2e776-06b0-4861-b379-ccca84a0b6c7",
+            "rating": "93%"
+        }
+    ]
+}

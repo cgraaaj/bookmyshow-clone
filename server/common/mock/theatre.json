@@ -1,0 +1,153 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "movie_id":"8ab561c9-5e2a-4fcd-9408-30615c629d9c",
+      "name":"Cinepolis",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "12:30",
+        "15:30"
+      ]
+    },
+    {
+      "movie_id":"cc61730b-5811-452e-972f-b7470d6afb81",
+      "name":"Sathyam",
+      "location":"Chennai",
+      "price": 250,
+      "timings":[
+        "12:30",
+        "15:30"
+      ]
+    },
+    {
+      "movie_id":"0849ebd2-b00f-419d-baa5-bf2ba4246173",
+      "name":"Mayajaal",
+      "location":"Chennai",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    },
+    {
+      "movie_id":"f34af101-ac2a-4751-a4f5-cf4deda6f564",
+      "name":"Cinepolis",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    },
+    {
+      "movie_id":"c654a353-e445-4d20-ab59-f3d831428c02",
+      "name":"PVR",
+      "location":"Chennai",
+      "price": 250,
+      "timings":[
+        "11:30",
+        "5:30"
+      ]
+    },
+    {
+      "movie_id":"03cab458-ba84-49b7-9082-ec44f31383bf",
+      "name":"PVR",
+      "location":"Chennai",
+      "price": 250,
+      "timings":[
+        "11:30",
+        "5:30"
+      ]
+    },
+    {
+      "movie_id":"a94d06c8-9f36-41a7-a642-6481b5085977",
+      "name":"Sathyam",
+      "location":"Chennai",
+      "price": 250,
+      "timings":[
+        "10:30",
+        "12:30"
+      ]
+    },
+    {
+      "movie_id":"f34af101-ac2a-4751-a4f5-cf4deda6f564",
+      "name":"Sathyam",
+      "location":"Chennai",
+      "price": 250,
+      "timings":[
+        "10:30",
+        "12:30"
+      ]
+    },
+    {
+      "movie_id":"03cab458-ba84-49b7-9082-ec44f31383bf",
+      "name":"Cinepolis",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "10:30",
+        "12:30"
+      ]
+    },
+    {
+      "movie_id":"6f1c2215-ce72-400a-afa7-999b2c2dc3c5",
+      "name":"PVR",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    },
+    {
+      "movie_id":"31b47e36-05a9-4726-a79e-02fdbb01e555",
+      "name":"Cinepolis",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    },
+    {
+      "movie_id":"a0c2e776-06b0-4861-b379-ccca84a0b6c7",
+      "name":"Cinepolis",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    },{
+      "movie_id":"a0c2e776-06b0-4861-b379-ccca84a0b6c7",
+      "name":"PVR",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    },{
+      "movie_id":"cc61730b-5811-452e-972f-b7470d6afb81",
+      "name":"PVR",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    },{
+      "movie_id":"8ab561c9-5e2a-4fcd-9408-30615c629d9c",
+      "name":"PVR",
+      "location":"Bengaluru",
+      "price": 250,
+      "timings":[
+        "9:30",
+        "21:30"
+      ]
+    }
+    
+  ]
+}
