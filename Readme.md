@@ -14,6 +14,23 @@ The basic functionalities available for the client is as follows
   - Shows list
   - Booking details
 
+## Libraries Used apart from basics
+
+- "axios": "^0.27.2" -
+  used to make HTTP requests
+- "lodash": "^4.17.21" -
+  for some basic utils and functions like isEmpty,isArray
+- "react-redux": "^7.2.2" -
+  bindings between redux and react, lib provides hooks like useState, useEffect
+- "react-router-dom": "6.3.0" -
+  for configuring the routers
+- "react-toastify": "^9.0.5" -
+  for custom made notifications
+- "redux": "^4.2.0" -
+  flux like flow with a single store
+- "redux-thunk": "^2.4.1" -
+  middleware that allows you to write action creators that return a function instead of an action
+
 ## ToDo
 
 - Slide cards for booking based on location
@@ -85,10 +102,14 @@ Create a common network in docker, which acts as a brige to make the client serv
 Run the docker images as intructed below on your local
 
 - Client
-  - docker run -d --name client --network=betrue raju6713/bms-frontend:amd64
+  - docker run -d --name client --network=bms raju6713/bms-frontend:amd64
 - Server
-  - docker run -d -p 5000:5000 --name api --network=betrue raju6713/bms-backend:amd64
+  - docker run -d -p 5000:5000 --name api --network=bms raju6713/bms-backend:amd64
 - Nginx
-  - docker run -d -p 8080:80 --name ngx --network=betrue raju6713/bms-nginx:amd64
+  - docker run -d -p 8080:80 --name ngx --network=bms raju6713/bms-nginx:amd64
 
 **_NOTE:_** Please make sure no other containers running on the name client, api, ngx on your docker network
+
+## K8s
+
+<a href="https://gitlab.com/cgraaaj/bookmyshow-clone-k8s" target="_blank">BMS K8s deployment</a>
