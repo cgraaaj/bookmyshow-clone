@@ -7,7 +7,6 @@ const INTIAL_STATE = {
   username: JSON.parse(localStorage.getItem('user'))
     ? JSON.parse(localStorage.getItem('user'))['username']
     : null,
-  email: null,
 };
 
 const authReducer = (state = INTIAL_STATE, action) => {
@@ -15,6 +14,7 @@ const authReducer = (state = INTIAL_STATE, action) => {
     case LOG_IN:
       const user = { username: action.payload.username, isSignedIn: true };
       localStorage.setItem('user', JSON.stringify(user));
+      localStorage.setItem('access_token', action.payload.data.access_token);
       return { ...state, isSignedIn: true, ...action.payload };
     case LOG_OUT:
       localStorage.clear();

@@ -1,16 +1,7 @@
-from crypt import methods
-import json
-from flask import Blueprint, request, jsonify, current_app
+from flask import Blueprint, request, jsonify
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
-from flask_jwt_extended import jwt_required
-from flask_jwt_extended import get_jwt
-import sqlite3
-
 from flask_jwt_extended import create_access_token
-from flask_jwt_extended import get_jwt_identity
-from flask_jwt_extended import get_jwt
-from flask_jwt_extended import set_access_cookies
 from flask_jwt_extended import unset_jwt_cookies
 from common.getdb import con
 
@@ -57,7 +48,6 @@ def login():
             response = jsonify(
                 {"msg": "login successful", "access_token": access_token}
             )
-            set_access_cookies(response, access_token)
             return response
     except Exception as e:
         print("could not verify, exception:", e)

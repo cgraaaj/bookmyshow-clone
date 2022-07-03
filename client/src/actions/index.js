@@ -39,6 +39,7 @@ export const login = (credentials) => async (dispatch) => {
     });
     const payload = {
       username: credentials.username,
+      data: response.data,
     };
     dispatch({
       type: LOG_IN,

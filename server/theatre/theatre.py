@@ -1,4 +1,3 @@
-from re import T
 from flask import Blueprint
 from common.utils import theatre
 from flask_jwt_extended import jwt_required
