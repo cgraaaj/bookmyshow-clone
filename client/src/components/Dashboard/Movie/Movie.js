@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { getMovies } from '../../../actions';
-import ReactPaginate from 'react-paginate';
 import LazyImage from './LazyImage';
 import _ from 'lodash';
 
