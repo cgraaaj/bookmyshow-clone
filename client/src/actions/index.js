@@ -1,4 +1,4 @@
-import { API } from '../utils/api';
+import { API, request } from '../utils/api';
 import {
   LOG_IN,
   LOG_OUT,
@@ -67,6 +67,9 @@ export const logout = () => async (dispatch) => {
 export const getMovies = () => async (dispatch) => {
   let response = '';
   try {
+    response = await request({
+      url: `${MOVIES_DATA}`,
+    });
     response = await API.get(`${MOVIES_DATA}`);
     dispatch({
       type: GET_MOVIES,
@@ -80,6 +83,9 @@ export const getMovies = () => async (dispatch) => {
 export const getShows = () => async (dispatch) => {
   let response = '';
   try {
+    response = await request({
+      url: `${SHOW_DATA}`,
+    });
     response = await API.get(`${SHOW_DATA}`);
     dispatch({
       type: GET_SHOWS,
@@ -93,6 +99,9 @@ export const getShows = () => async (dispatch) => {
 export const getShow = (movieId) => async (dispatch) => {
   let response = '';
   try {
+    response = await request({
+      url: `${SHOW_DATA}/${movieId}`,
+    });
     response = await API.get(`${SHOW_DATA}/${movieId}`);
     dispatch({
       type: GET_SHOW,
